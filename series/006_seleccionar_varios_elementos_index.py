@@ -7,7 +7,8 @@ myvar = pd.Series(calories, index = ["day1", "day2"])
 
 print(myvar)
 
-# Output:
-# day1    420
-# day2    380
-# dtype: int64
+"""Output
+day1    420
+day2    380
+dtype: int64
+"""

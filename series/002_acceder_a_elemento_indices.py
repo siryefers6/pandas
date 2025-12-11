@@ -6,5 +6,6 @@ myvar = pd.Series(a)
 
 print(myvar[0])
 
-## Output:
-# 1
+"""Output
+1
+"""

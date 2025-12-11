@@ -7,8 +7,9 @@ myvar = pd.Series(a, index = ["x", "y", "z"])
 
 print(myvar)
 
-# Output:
-# x    1
-# y    7
-# z    2
-# dtype: int64
+"""Output
+x    1
+y    7
+z    2
+dtype: int64
+"""

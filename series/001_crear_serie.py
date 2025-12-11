@@ -6,8 +6,10 @@ myvar = pd.Series(a)
 
 print(myvar)
 
-## Output:
-# 0    1
-# 1    7
-# 2    2
-# dtype: int64
+
+"""Output
+0    1
+1    7
+2    2
+dtype: int64
+"""
