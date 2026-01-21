@@ -4,7 +4,7 @@ df = pd.read_csv('data_errors.csv')
 
 df['Date'] = pd.to_datetime(df['Date'], format='mixed')
 
-"Eliminar rows con un valor NULL en columna 'Date'"
+# Eliminar rows con un valor NULL en columna 'Date'
 df.dropna(subset=['Date'], inplace = True)
 
 print(df.to_string())
